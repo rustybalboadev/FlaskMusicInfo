@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Music Info - Main Page</title>
+        <meta name='viewport' content='width=device=width, initial-scale=1.0'>
+        <link href='static/bootstrap.min.css' rel='stylesheet' media='screen'>
+    </head>
+    <body>
+        <h1>Music Info</h1>
+        <br>
+        <h1>Your username is: {{ your_username }}</h1>
+        <h1>Is Subscriber: {{ is_sub }}</h1>
+        <h1>Playing Now: {{ now_playing }}</h1>
+        <h1>Recent Played: {{ recent_play }}</h1>
+        <h1>Top Album: {{ top_album }}</h1>
+        <h1>Top Track: {{ top_track }}</h1>
+        <h1>Songs Playcount: {{ play_counts }}</h1>
+        <form action='' method='post'>
+            <input class="btn btn-default" type="submit" value='Refresh'>
+        </form>
+    </body>
+</html>
